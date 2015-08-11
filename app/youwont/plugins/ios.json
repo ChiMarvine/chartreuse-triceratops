@@ -28,7 +28,7 @@
                     "CoreGraphics.framework": [
                         {
                             "xml": false,
-                            "count": 4
+                            "count": 3
                         }
                     ],
                     "AssetsLibrary.framework": [
