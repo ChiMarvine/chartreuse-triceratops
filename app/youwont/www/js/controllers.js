@@ -36,7 +36,7 @@ youwontController.controller('loginCtrl', function ($scope,authLogin) {
 youwontController.controller('videoCtrl', function ($scope, challenges, $ionicPlatform, $state, $cordovaCamera, $cordovaCapture, VideoService,DatabaseService,authLogin) {
   
 
-  var $scope.challenge = {};
+  $scope.challenge = {};
   challenges.push($scope.challenge);
 
   $scope.challenge.clip = '';
